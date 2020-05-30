@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+em {
+  font-size: 0.7em;
+}
+
 body {
   background-color: black;
 }
@@ -23,6 +27,7 @@ body {
 h2 {
   font-weight: 300;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
 }
 
 p {
@@ -53,7 +58,7 @@ header nav {
 header h1 {
   font-weight: 300;
   margin: 0;
-  font-size: 36px;
+  font-size: 2.2vw;
   color: var(--jb1-color);
 }
 
@@ -68,10 +73,9 @@ header nav ul {
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.25vw;
+  font-size: 1.7vw;
   text-decoration: none;
   color: var(--jb1-color);
-  /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
 
 header nav ul li a:hover {
@@ -80,6 +84,7 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
+
 
 
 /* HERO SECTION - START */
@@ -97,6 +102,8 @@ header nav ul li a:hover {
 }
 /* HERO SECTION - END */
 
+
+
 /* ABOUT ME SECTION - START */
 .about-me {
   display: flex;
@@ -109,6 +116,8 @@ header nav ul li a:hover {
 }
 /* ABOUT ME SECTION - END */
 
+
+
 /* WORK SECTION - START */
 .work {
   display: flex;
@@ -116,41 +125,36 @@ header nav ul li a:hover {
   align-items: stretch;
   flex-direction: column;
   padding: 30px;
-  background-color: var(--jb4-color);
+  background-color: var(--jb3-color);
   color: var(--jb1-color);
   font-weight: 300;
+  line-height: 0.95;
 }
 
 .resume-grid-container {
   display: grid;
-  /* width: 1000px; */
   grid-template: 1fr / 2fr 1fr;
-  /* justify-items: flex-start; */
   grid-gap: 10px;
 }
 
 .resume-grid-container div {
-  padding: 5px;
+  padding: 20px;
   border-radius: 10px;
-  margin: 20px;
-  background-color: rgba(142, 198, 197, 0.5);
+  margin: 10px;
+  background-color: var(--jb4-color);
 }
 
 .resume-grid-item-1 {
   grid-row-start: 1;
   grid-row-end: span 2;
-  /* padding: 5px; */
-  /* border-radius: 10px; */
-  /* margin: 20px; */
   background-image: url("../images/run_buddy.jpg");
   background-position: bottom;
   background-size: cover;
   background-color: var(--jb3-color);
 }
-
-
-
 /* WORK SECTION - END */
+
+
 
 /* FOOTER SECTION - START */
 footer {
@@ -163,19 +167,20 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 20px 35px;
+  flex-wrap: wrap;
 
 }
 
 footer .contact-details {
   display: flex;
   justify-content: space-between;
-  padding: 0px 50px;
+  padding: 15px;
   font-weight: lighter;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
 footer .contact-details div {
   padding: 30px;
 }
-
 /* FOOTER SECTION - END */
