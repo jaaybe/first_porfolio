@@ -12,6 +12,10 @@
     --jb4-color: #8566aa;
   }
 
+h2 {
+  font-weight: 300;
+}
+
   header {
     padding: 20px 35px;
     background-color: var(--jb3-color);
@@ -34,7 +38,7 @@ header nav {
 }
 
 header h1 {
-  font-weight: bold;
+  font-weight: 300;
   margin: 0;
   font-size: 36px;
   color: var(--jb1-color);
@@ -91,10 +95,10 @@ header nav ul li a:hover {
 .about-me {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: stretch;
+  flex-direction: column;
   padding: 30px;
-  background-color: var(--jb1-color);
+  background-color: rgba(244, 244, 244, 1.0);
   color: var(--jb3-color);
 }
 /* ABOUT ME SECTION - END */
@@ -117,11 +121,17 @@ header nav ul li a:hover {
 /* WORK SECTION - END */
 
 /* FOOTER SECTION - START */
+footer {
+  background-color: var(--jb3-color);
+  color: var(--jb1-color);
+}
+
 .contact-me {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 35px;
+
 }
 
 footer .contact-details {
