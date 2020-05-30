@@ -1,14 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  font-family: 'Inter', arial, sans-serif;
 }
 
 :root {
-    --jb1-color: #f7f7f7;
-    --jb2-color: #cceabb;
-    --jb3-color: #3f3f44;
-    --jb4-color: #fdcb9e;
+    --jb1-color: #f4f4f4;
+    --jb2-color: #8ec6c5;
+    --jb3-color: #6983aa;
+    --jb4-color: #8566aa;
   }
 
   header {
@@ -17,27 +18,22 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* position: -webkit-sticky;
-    position: sticky; */
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
+    background-image: url("../images/hero_odesza.jpg");
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
-}
-
-header a {
-    text-decoration: none;
-    color: var(--jb1-color);
-}
+  }
 
 header nav {
   margin: 7px 0;
 }
 
 header h1 {
-  font-family: 'Inter', arial, sans-serif;
   font-weight: bold;
   margin: 0;
   font-size: 36px;
@@ -46,7 +42,6 @@ header h1 {
 }
 
 header nav ul {
-  font-family: 'Inter', arial, sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -58,6 +53,8 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.25vw;
+  text-decoration: none;
+  color: var(--jb1-color);
   /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
 
@@ -68,16 +65,75 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
-/* HERO STYLES START */
 .hero {
-  /* display: flex;
+  height: 600px;
+  width: 2000px;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  background-image: url(/assets/images/hero_odesza.jpg);
+  background-image: url("../images/hero_odesza.jpg");
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   background-attachment: fixed;
-  background-position: 80%; */
+  background-position: 80%;
 }
-/* HERO STYLES END */
+
+/* .test {
+  display: flex;
+} */
+
+
+
+
+
+/* ABOUT ME SECTION - START */
+.about-me {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 30px;
+  background-color: var(--jb1-color);
+  color: var(--jb3-color);
+}
+/* ABOUT ME SECTION - END */
+
+
+
+
+
+
+
+
+
+
+/* WORK SECTION - START */
+.work {
+  background-color: var(--jb4-color);
+  color: var(--jb3-color);
+  height: 2000px;
+}
+/* WORK SECTION - END */
+
+/* FOOTER SECTION - START */
+.contact-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 35px;
+}
+
+footer .contact-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+footer .contact-details div {
+  padding: 30px;
+}
+
+/* FOOTER SECTION - END */
