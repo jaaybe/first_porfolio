@@ -1,12 +1,12 @@
 # first_porfolio
 Building my very first portfolio 
 
-
-
-
-[logo]: 
-
 ![screenshot](./assets/screenshots/screenshot.png)
+
+[JB Blot - Portfolio](https://jaaybe.github.io/first_porfolio/)
+
+# Description
+This is the very first website I've built.  Its primary purposed is to showcase my current and future programming projects.
 
 # H1 Technology Used
 - git
