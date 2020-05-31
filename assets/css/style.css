@@ -216,7 +216,6 @@ footer .contact-details div {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   /* place holder in case needed */
-
 }
 
 
@@ -227,44 +226,21 @@ footer .contact-details div {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
   header h1 {
     font-size: 3.5vw;
   }
 
+  header nav {
+    justify-content: center;
+  }
+
+  header nav ul li {
+    padding: 0px 10px;
+  }
+
   header nav ul li a {
     font-size: 3.3vw;
+    padding: 10px 0px;
   }
 }
-
-/* @media screen and (max-width: 575px) {
-
-  .hero-form button {
-    width: 100%;
-  }
-
-  .section-title {
-    width: 95%;
-  }
-
-  .intro p {
-    width: 100%;
-  }
-
-  .trainer {
-    flex: 0 100%;
-  }
-
-  .contact-info {
-    text-align: center;
-  }
-
-  .contact-info > * {
-    flex: 0 100%;
-  }
-
-  .contact-form {
-    order: 3;
-  }
-}  */
-
