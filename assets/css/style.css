@@ -220,7 +220,7 @@ footer .contact-details div {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 875px) {
   header {
     flex-direction: column;
     align-items: center;
