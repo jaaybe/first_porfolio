@@ -227,6 +227,16 @@ footer .contact-details div {
   }
 }
 
+@media screen and (max-width: 575px) {
+  header h1 {
+    font-size: 3.5vw;
+  }
+
+  header nav ul li a {
+    font-size: 3.3vw;
+  }
+}
+
 /* @media screen and (max-width: 575px) {
 
   .hero-form button {
